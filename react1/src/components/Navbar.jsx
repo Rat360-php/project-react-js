@@ -35,25 +35,25 @@ const Navbar = () => {
           >
             <li className='flex items-center gap-3'>
               <i class='ri-home-4-line md:hidden block text-3xl'></i>
-              <a href='#' className='font-medium opacity-75'>
+              <a href='#home' className='font-medium opacity-75'>
                 Home
               </a>
             </li>
             <li className='flex items-center gap-3'>
               <i class='ri-information-2-line md:hidden block text-3xl'></i>
-              <a href='#' className='font-medium opacity-75'>
+              <a href='#about' className='font-medium opacity-75'>
                 About
               </a>
             </li>
             <li className='flex items-center gap-3'>
               <i class='ri-settings-3-line md:hidden block text-3xl'></i>
-              <a href='#' className='font-medium opacity-75'>
+              <a href='#services' className='font-medium opacity-75'>
                 Service
               </a>
             </li>
             <li className='flex items-center gap-3'>
               <i class='ri-image-line md:hidden block text-3xl'></i>
-              <a href='#' className='font-medium opacity-75'>
+              <a href='#proyek' className='font-medium opacity-75'>
                 Project
               </a>
             </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
           {/* Social and Menu Icon */}
           <div className='social flex gap-2 items-center'>
             <a
-              href='#'
+              href='#footter'
               className='bg-slate-700 px-5 py-2 rounded-full text-white font-bold hover:bg-slate-800'
             >
               Social Media

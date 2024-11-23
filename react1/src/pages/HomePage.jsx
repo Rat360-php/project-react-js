@@ -1,7 +1,11 @@
 import HeroImage from '../assets/hero.svg';
 import AboutImage from '../assets/about.svg';
 import Card from '../components/Card.jsx';
-import CardImage from '../assets/ai-generated-8777813_640.png';
+import Proyek1 from '../assets/proyek-1.webp';
+import Proyek2 from '../assets/proyek-2.webp';
+import Proyek3 from '../assets/proyek-3.webp';
+import Proyek4 from '../assets/proyek-4.webp';
+import Proyek5 from '../assets/proyek-5.webp';
 
 const HomePage = () => {
   return (
@@ -35,7 +39,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className='About grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-20 pt-32'>
+        <div className='About grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-20 pt-32' id="about">
           <div className='box md:order-1 order-2'>
             <img
               src={AboutImage}
@@ -58,35 +62,122 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className='Services'>
+        <div className='Services pt-32' id="services">
           <h1 className='text-center lg:text-5xl/tight text-3xl font-medium'>
             Layanan
           </h1>
-          <p className=''>
+          <p className='text-center'>
             exercitation consequat nulla veniam elit mollit esse
           </p>
-          <div className='Services-box grid grid-cols-3 gap-6'>
+          <div className='Services-box grid md:grid-cols-3 grid-cols-1 gap-6 pt-12'>
             <Card>
               <Card.Title>Layanan 1</Card.Title>
               <Card.Body>
-                <img src={CardImage} alt='Card Image' />
+                <p>
+                  do ullamco eu voluptate deserunt est est in excepteur do in
+                  fugiat pariatur dolor eiusmod
+                </p>
               </Card.Body>
-              <Card.Footer></Card.Footer>
             </Card>
             <Card>
               <Card.Title>Layanan 2</Card.Title>
               <Card.Body>
-                <img src={CardImage} alt='Card Image' />
+                <p>
+                  sit ad ad duis non non aute esse non reprehenderit aute amet
+                  anim cupidatat consectetur
+                </p>
               </Card.Body>
-              <Card.Footer></Card.Footer>
             </Card>
             <Card>
               <Card.Title>Layanan 3</Card.Title>
               <Card.Body>
-                <img src={CardImage} alt='Card Image' />
+                <p>
+                  magna pariatur occaecat incididunt minim est id id eiusmod
+                  aute occaecat ad eu laborum elit
+                </p>
               </Card.Body>
-              <Card.Footer></Card.Footer>
             </Card>
+          </div>
+        </div>
+
+        <div className='proyek pt-32' id="proyek">
+          <h1 className='text-center lg:text-5xl/tight text-3xl font-medium'>
+            Proyek
+          </h1>
+          <p className='text-center'>
+            exercitation consequat nulla veniam elit mollit esse
+          </p>
+          <div className='proyek-box gap-6 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 pt-12'>
+            <div className='box p-2 bg-slate-600 shadow'>
+              <img
+                src={Proyek1}
+                alt='Proyek Image'
+                className='w-full h-[220px]'
+              />
+              <h3 className='text-xl font-bold text-white mt-6 mb-2'>
+                Proyek 1
+              </h3>
+              <p className='text-white text-base/loose'>
+                tempor dolore nostrud esse reprehenderit id adipisicing nostrud
+                proident non
+              </p>
+            </div>
+            <div className='box p-2 bg-slate-600 shadow'>
+              <img
+                src={Proyek2}
+                alt='Proyek Image'
+                className='w-full h-[220px]'
+              />
+              <h3 className='text-xl font-bold text-white mt-6 mb-2'>
+                Proyek 2
+              </h3>
+              <p className='text-white text-base/loose'>
+                tempor dolore nostrud esse reprehenderit id adipisicing nostrud
+                proident non
+              </p>
+            </div>
+            <div className='box p-2 bg-slate-600 shadow'>
+              <img
+                src={Proyek3}
+                alt='Proyek Image'
+                className='w-full h-[220px]'
+              />
+              <h3 className='text-xl font-bold text-white mt-6 mb-2'>
+                Proyek 3
+              </h3>
+              <p className='text-white text-base/loose'>
+                tempor dolore nostrud esse reprehenderit id adipisicing nostrud
+                proident non
+              </p>
+            </div>
+            <div className='box p-2 bg-slate-600 shadow'>
+              <img
+                src={Proyek4}
+                alt='Proyek Image'
+                className='w-full h-[220px]'
+              />
+              <h3 className='text-xl font-bold text-white mt-6 mb-2'>
+                Proyek 4
+              </h3>
+              <p className='text-white text-base/loose'>
+                tempor dolore nostrud esse reprehenderit id adipisicing nostrud
+                proident non
+              </p>
+            </div>
+            <div className='box p-2 bg-slate-600 shadow'>
+              <img
+                src={Proyek5}
+                alt='Proyek Image'
+                className='w-full h-[220px]'
+              />
+              <h3 className='text-xl font-bold text-white mt-6 mb-2'>
+                Proyek 5
+              </h3>
+              <p className='text-white text-base/loose'>
+                tempor dolore nostrud esse reprehenderit id adipisicing nostrud
+                proident non
+              </p>
+            </div>
           </div>
         </div>
       </div>
